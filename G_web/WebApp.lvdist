@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SourceFile Checksum="815B902E0AD17F8AF24FA8E6D7DC94DDDDD65265E7DA11B82D6A335EB3652F9A559E0CC078AD953C1D0E7309469A5C37995401478EDFE1D8418CE611BBB75F6B" Timestamp="1D99A1C0FC0730B" xmlns="http://www.ni.com/PlatformFramework">
+	<SourceModelFeatureSet>
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
+		<ParsableNamespace AssemblyFileVersion="9.1.0.50238" FeatureSetName="Editor" Name="http://www.ni.com/PlatformFramework" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
+		<ApplicationVersionInfo Build="9.1.0.50238" Name="G Web Development Software" Version="21.0.0" />
+	</SourceModelFeatureSet>
+	<DistributionDefinition Product="WebApp" ShortDescription="marquageliser" TargetedProduct="LabVIEW" Version="1.0.0.1" xmlns="http://www.ni.com/GComponent.xsd">
+		<DistributionOutput CachedDisplayName="Package" Id="582ca3f654224658a9ffb9e6ba56055f" OutputTypeIdentifier="DistributionOutputType:NiPackage" p3:CustomNipmPackageName="marquageliser" p3:DistributionCategory="Application" p3:MaintainerEmail="dhiadridi06@gmail.com" p3:MaintainerName="dhiadridi" p3:PackageDisplayName="WebApp" xmlns:p3="http://www.ni.com/GComponent.xsd" />
+		<DistributionBuildTarget Id="cf566e8e52314f6a82993fc19baa4c40" Target="::VireoDevSystem" />
+		<DistributionMemberDependencySource Id="2fb9d96927474f2a99a9894c7b59a0c0" MemberContentType="{http://www.ni.com/GComponent.xsd}Component_Rebuild" RelativeLocation="&quot;Web Server\\htdocs\\WebApp&quot;" RootLocation="NISharedDirectory64" Target="::VireoDevSystem::Interactive::WebApp.gcomp" />
+	</DistributionDefinition>
+</SourceFile>
